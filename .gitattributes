@@ -1,0 +1,2 @@
+eaglercraft-26.2-client.html filter=lfs diff=lfs merge=lfs -text
+eaglercraft-26.2-optional-music.zip filter=lfs diff=lfs merge=lfs -text

@@ -1,0 +1,5 @@
+# keep the repo lean: only the deliverables plus docs
+*.tmp
+*.log
+.DS_Store
+Thumbs.db
