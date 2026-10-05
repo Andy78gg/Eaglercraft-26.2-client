@@ -5,7 +5,7 @@ A browser-playable single-file client for **Eaglercraft 26.2**, compiled locally
 (patched with `eaglercraft-26.2-java-cli 0.1.0-u1` / TeaVM `0.13.1-eagler`).
 
 This is a custom build: main menu title **"ruian client"**, custom main-menu background,
-and 7 built-in client mods — no source mods to install, everything is compiled in.
+and 8 built-in client mods — no source mods to install, everything is compiled in.
 
 ## Files
 
@@ -36,6 +36,7 @@ Multiplayer requires a compatible Eaglercraft 26.2 server, which is **not** incl
 | Toggle sprint | Sprint toggles on/off (no need to hold) |
 | No hurt cam | No camera shake when taking damage |
 | Small held item | Held items rendered at fixed 0.5x size |
+| Autoclicker | Hold left/right click to auto-attack at fixed 12 CPS (toggle with **V**; skips blocks so mining stays normal) |
 
 ## Building from source
 
