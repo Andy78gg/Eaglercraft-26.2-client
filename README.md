@@ -1,25 +1,37 @@
 # Eaglercraft 26.2 Client — ruian client
 
-A browser-playable single-file client for **Eaglercraft 26.2**, compiled locally from the
+A browser-playable client for **Eaglercraft 26.2**, compiled locally from the
 [Eaglercraft-26.2-Workspace](https://github.com/CynTheSolveroftheabsolutefabric/Eaglercraft-26.2-Workspace)
 (patched with `eaglercraft-26.2-java-cli 0.1.0-u1` / TeaVM `0.13.1-eagler`).
 
 This is a custom build: main menu title **"ruian client"**, custom main-menu background,
-and 8 built-in client mods — no source mods to install, everything is compiled in.
+and built-in client mods — no source mods to install, everything is compiled in.
+
+## ▶ Play online (GitHub Pages)
+
+**https://andy78gg.github.io/Eaglercraft-26.2-client/**
+
+Open that link in Chrome / Edge and press Play. The first load takes a while
+(~100 MB), that is normal.
 
 ## Files
 
 | File | Size | What it is |
 | --- | --- | --- |
-| `index.html` | ~121 MB | The full custom client. Download and open it in any modern browser (Chrome / Edge recommended). Contains all 4,779 gameplay sound effects (from the official 26.2 asset index, transcoded to mono OGG). |
+| `index.html` | ~79 KB | Entry page for the online (multifile) build, served by GitHub Pages |
+| `classes.wasm` + `*.wasm` + `*.epk` | ~200 MB | The actual game binaries/assets for the online build |
+| `eaglercraft-26.2-client.html` | ~121 MB | **Single-file offline build** — download and open in any browser; contains all 4,779 sound effects (from the official 26.2 asset index, transcoded to mono OGG) |
 
-The large file is stored with **Git LFS**. Note: GitHub Pages does not resolve LFS
-pointers, so `https://<user>.github.io/Eaglercraft-26.2-client/` will not render the
-game — download the file and open it locally instead.
+The large files are stored with **Git LFS**. GitHub's web "Download raw file" only
+shows the LFS pointer as a `.txt` — to get the real single-file build use either:
 
-## How to play
+- `git clone https://github.com/Andy78gg/Eaglercraft-26.2-client.git` then
+  `git lfs pull`, or
+- the **Releases** page if a release asset is attached.
 
-1. Download `index.html` (use the **Download raw file** button, or clone the repo with Git LFS).
+## How to play offline
+
+1. Get `eaglercraft-26.2-client.html` (clone with LFS, or Releases).
 2. Double-click it (or serve it over HTTP). No server needed — single-player worlds work out of the box.
 3. First load takes a while (~121 MB), that is normal.
 
@@ -36,7 +48,7 @@ Multiplayer requires a compatible Eaglercraft 26.2 server, which is **not** incl
 | Toggle sprint | Sprint toggles on/off (no need to hold) |
 | No hurt cam | No camera shake when taking damage |
 | Small held item | Held items rendered at fixed 0.5x size |
-| Autoclicker | Hold left/right click to auto-attack at fixed 12 CPS (toggle with **V**; skips blocks so mining stays normal) |
+| Autoclicker | Hold left click to auto-attack; toggle with **V**, adjust CPS 1–20 with the `\` / `|` key (chat shows current CPS; skips blocks so mining stays normal) |
 
 ## Building from source
 
