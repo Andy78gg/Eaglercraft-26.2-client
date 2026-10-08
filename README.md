@@ -1,8 +1,4 @@
-# Eaglercraft 26.2 Client — ruian client
 
-A browser-playable client for **Eaglercraft 26.2**, compiled locally from the
-[Eaglercraft-26.2-Workspace](https://github.com/CynTheSolveroftheabsolutefabric/Eaglercraft-26.2-Workspace)
-(patched with `eaglercraft-26.2-java-cli 0.1.0-u1` / TeaVM `0.13.1-eagler`).
 
 This is a custom build: main menu title **"ruian client"**, custom main-menu background,
 and built-in client mods — no source mods to install, everything is compiled in.
