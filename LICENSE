@@ -1,0 +1,37 @@
+LICENSE (English Version)
+Custom Non-Commercial Open Source License
+Copyright (c) 2026 Andy78gg
+Permission is hereby granted, free of charge, to any individual obtaining a copy of this software and associated documentation files (the "Software"), to use, study, and view the Software for personal, non-commercial, educational purposes only, subject to the following terms and conditions:
+1. Allowed Usage
+Individual users may access, clone, review, and study the source code of this Software solely for personal learning, technical research, and private non-commercial entertainment. No public distribution or commercial activity is permitted under this license.
+2. Prohibited Actions
+The following actions are strictly forbidden without explicit written authorization from the original author:
+- Commercial use, selling, reselling, renting, or monetizing any part of the Software, including compiled builds, client resources, and modified versions.
+- Public redistribution, republishing, forking, reuploading, or releasing modified versions of the Software to the public.
+- Using the Software for private server profit, client resale, custom service orders, or public resource sharing.
+- Removing, modifying, or obscuring the original copyright notice, author attribution, or this license statement.
+3. Fork Restrictions
+Public accessibility of this repository does not grant permission for public duplication or redistribution. Any forked copy is limited to personal backup use only and may not be published, shared, or released publicly.
+4. Disclaimer of Warranty
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+5. Violation Enforcement
+Any violation of this license will result in immediate termination of usage rights. The original author reserves the right to report, take down, and pursue legal accountability for any unauthorized commercial use or public redistribution.
+
+
+LICENSE
+Eaglercraft-26.2-client 开源使用许可协议
+Copyright (c) 2026 Andy78gg
+Permission is hereby granted, free of charge, to any individual obtaining a copy of this software and associated documentation files (the "Software"), to use, study and view the Software for personal non-commercial learning purposes only, subject to the following terms:
+1. 允许范围
+任何人可以克隆、查看、学习本项目源代码，仅限个人学习、技术研究、本地娱乐使用。
+2. 严格禁止行为（重点）
+1. 禁止将本项目代码、编译成品、客户端资源用于商业用途、付费售卖、引流变现、接定制单。
+2. 禁止未经作者授权，私自 Fork、二次修改后重新发布、打包改版客户端、公开分流、冒充原版发布。
+3. 禁止将本项目用于私服盈利、客户端倒卖、整合包发布、公开资源分享站转载。
+4. 禁止删除本项目原作者版权信息、标题、署名、开源声明。
+3. Fork 限制说明
+本仓库虽为公开开源，不允许未经授权的二次分发复刻。任何 Fork 副本仅可作为个人备份，不得公开传播、发布改版版本。
+4. 免责声明
+This software is provided "as is", without warranty of any kind, express or implied. The author is not responsible for any loss, dispute or infringement caused by unauthorized modification and redistribution.
+5. 违规追责
+凡违反以上协议者，作者有权收回使用权限、举报违规仓库、追究非合规传播与商用带来的一切责任。
